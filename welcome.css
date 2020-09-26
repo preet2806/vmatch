@@ -95,20 +95,16 @@ button{
     -webkit-text-fill-color: transparent;
 }
 @media (max-width: 6in){
+    body{
+        min-height: 100vh;
+    }
     nav{
         
         font-size: 30px;
         
     }
-    
-    body{
-        background-image: url("https://image.freepik.com/free-photo/beautiful-sexy-fashion-blond-girl-model-with-bright-makeup-curly-hairstyle-retro-style-sitting-old-car_158538-9302.jpg");
-        background-repeat: no-repeat;
-        
-    }
     #welcomeBody{
-       
-        grid-template-rows: 450px 90px 50px;
+        grid-template-rows: 450px 70px 40px;
     }
     #container{
         width: 250px;
