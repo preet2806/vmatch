@@ -1,0 +1,149 @@
+body{
+    
+    background-color: #0B090A;
+    
+}
+.icon{
+    background: -webkit-linear-gradient(#161A1D, #E5383B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    align-self: center;
+}
+#logo{
+    font-weight: 400;
+}
+#logo i{
+    background: -webkit-linear-gradient(#161A1D, #E5383B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.radioClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#signupDetails{
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 40px;
+
+}
+.gender{
+    font-size: 30px;
+}
+.genderElement{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+label{
+    color: white;
+    font-family: josefin sans;
+    font-size: 40px;
+    margin-top: 4%;
+}
+#continueButton{
+    font-size:20px;
+    background: -webkit-linear-gradient(#161A1D, #E5383B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0.5% 0.4%;
+    border-radius: 20px;
+    border-color: #c9a7ef;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+#signupElement{
+    font-size: 40px;
+    background-color: #7a7887;
+    color: #1c2130;
+    padding: 5% 10%;
+    margin-top: 2%;
+}
+#signupBody{
+    opacity: 0.4;
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+p{
+    color: #7a7887;
+    line-height: 0%;
+    align-self: center;
+}
+
+nav{
+    position: fixed;
+    z-index: 5;
+    top: 2%;
+    left: 5%;
+    height: 5%;
+    width: 90%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #F5F3F4;
+    font-weight: 800;
+}
+
+#title{
+    align-self: center;
+    font-size:80px;
+    font-weight: 500;
+    color: white;
+    margin-top: 7%;
+    font-family: mr de haviland;
+    line-height: 0%;
+}
+ul{
+    margin-top: 0%;
+}
+#alertContainer{
+    border-style: solid;
+    border-radius: 10%;
+    position: fixed;
+    left: 36%;
+    top: 18%;
+    width: 28%;
+    height: 64%;
+    background-color: #0B090A;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    opacity: 1;
+}
+
+h3{
+    color: white;
+    font-size: 35px;
+    font-family: josefin sans;
+    line-height: 2%;
+    
+}
+#agree{
+    font-size:20px;
+    background: -webkit-linear-gradient(#161A1D, #E5383B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0.5% 0.4%;
+    border-radius: 20px;
+    border-color: #c9a7ef;
+    margin-top: 0%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+#formTitle{
+    color: white;
+    font-family: mr de haviland;
+    font-size: 75px;
+    font-weight: 400;
+    align-self: center;
+}

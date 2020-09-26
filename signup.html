@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="signup.css" media="screen"/>
+
+    <script src="signup.css"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    
+    <script src="vmat.js"></script>
+</head>
+<nav id="navbar"><div id="logo"><i class="fas fa-feather-alt"></i>Vmatch</div></nav>
+<body>
+    <div id="signupBody">
+        <h1 id="formTitle">Create Account</h1>
+        <form id="signupDetails" action="account.html">
+            <label for="firstname">First name</label>
+            <input class="signupelement" type="text" name="firstname">
+            <div class="radioClass">
+                <label for="gender">Gender</label>
+                <input class="genderElement" type="radio" name="gender" value="male">
+                <label class="gender">male</label>
+                <input class="genderElement" type="radio" name="gender" value="female">
+                <label class="gender">female</label>
+            </div>
+            <label for="dateofbirth">date of birth</label>
+            <input class="signupelement" type="date" name="dateofbirth">
+            <label for="dp">Profile photo</label>
+            <input class="signupelement" type="image" name="dp">
+            <label for="bio">Bio</label>
+            <input class="signupelement" type="text" name="bio">
+            <div class="radioClass">
+                <label for="interestedin">looking for</label>
+                <input class="genderElement" type="radio" name="gender" value="male">
+                <label class="gender">male</label>
+                <input class="genderElement" type="radio" name="gender" value="female">
+                <label class="gender">female</label>
+            </div>
+            <button type="submit" id="continueButton">Continue</button>
+            
+        </form>
+    </div>
+
+</body>
+<div id=container>
+    <div id="alertContainer"><div class="icon"><i class="fas fa-feather-alt"></i></div><h1 id="title">welcome</h1><p>please follow these house rules</p><ul><li><h3>Be yourself</h3><p>make sure your age bip and pictures are true to who you are</p></li><li><h3>stay safe</h3><p>dont give out personal information too soon</p></li><li><h3>play it cool</h3><p>respect others and treat them as you would like to be treated</p></li></ul><button onclick="removeAlert()" id="agree">I AGREE</button></div>
+</div>
