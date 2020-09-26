@@ -60,6 +60,8 @@ body{
 }
 form{
     align-self: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 h1{
@@ -84,6 +86,10 @@ button{
     border-color: white;
     padding: 2px 16px;
     font-size: 20px;
+    background-color: transparent;
+}
+.but{
+    background-color: transparent;
     background: -webkit-linear-gradient(#eee, rgb(221, 43, 43));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

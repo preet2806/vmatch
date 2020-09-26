@@ -46,15 +46,13 @@ label{
 }
 #continueButton{
     font-size:20px;
-    background: -webkit-linear-gradient(#161A1D, #E5383B);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding: 0.5% 0.4%;
     border-radius: 20px;
     border-color: #ffffff;
     margin-top: 4%;
     margin-left: 35%;
     margin-right: 35%;
+    background-color: transparent;
 }
 #signupElement{
     font-size: 40px;
@@ -130,15 +128,13 @@ h3{
 }
 #agree{
     font-size:20px;
-    background: -webkit-linear-gradient(#161A1D, #E5383B);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding: 0.5% 0.4%;
     border-radius: 20px;
     border-color: #ffffff;
     margin-top: 0%;
     margin-left: 35%;
     margin-right: 35%;
+    background-color: transparent;
 }
 #formTitle{
     color: white;
@@ -146,6 +142,12 @@ h3{
     font-size: 75px;
     font-weight: 400;
     align-self: center;
+}
+.but{
+    background-color: transparent;
+    background: -webkit-linear-gradient(#eee, rgb(221, 43, 43));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 @media (max-width: 6in){
     .icon{

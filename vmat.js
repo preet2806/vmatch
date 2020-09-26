@@ -21,14 +21,14 @@ const signupDiv = () => {
     
     document.getElementById("title").style.opacity=0.4;
     document.getElementById("titlep").style.opacity=0.4;
-    document.getElementById("container").innerHTML = '<div id="signupContainer"><div class="icon"><i class="fas fa-feather-alt"></i></div><form id="signupForm"><h3>Enter your email-address</h3><input type="email" class="signupElement"><h3>Enter your mobile number</h3><input type="number" class="signupElement"><p>already a user? <a onclick="loginDiv()">login</a></p><button onclick=window.open("signup.html") id="signupButton" type="submit">go</button></form></div>';
+    document.getElementById("container").innerHTML = '<div id="signupContainer"><div class="icon"><i class="fas fa-feather-alt"></i></div><form id="signupForm"><h3>Enter your email-address</h3><input type="email" class="signupElement"><h3>Enter your mobile number</h3><input type="number" class="signupElement"><p>already a user? <a onclick="loginDiv()">login</a></p><button onclick=window.open("signup.html") id="signupButton" type="submit"><div class="but">go</div></button></form></div>';
     
 };
 const loginDiv = () => {
      
     document.getElementById("title").style.opacity=0.4;
     document.getElementById("titlep").style.opacity=0.4;
-    document.getElementById("container").innerHTML = '<div id="loginContainer"><div class="icon"><i class="fas fa-feather-alt"></i></div><form id="loginForm"><h3>Enter your email-address</h3><input type="email" class="signupElement"><h3>Enter your password</h3><input type="password" class="signupElement"><p>new user? <a onclick="signupDiv()">Signup</a></p><button id="loginButton" onclick=window.open("account.html")>go</button></form></div>';
+    document.getElementById("container").innerHTML = '<div id="loginContainer"><div class="icon"><i class="fas fa-feather-alt"></i></div><form id="loginForm"><h3>Enter your email-address</h3><input type="email" class="signupElement"><h3>Enter your password</h3><input type="password" class="signupElement"><p>new user? <a onclick="signupDiv()">Signup</a></p><button id="loginButton" onclick=window.open("account.html")><div class="but">go</div></button></form></div>';
 
 };
 const removeAlert = () => {
@@ -62,7 +62,7 @@ const messagesDisplay = () => {
 
 };
 const goToChat = () => {
-    document.getElementById("chat").innerHTML='<div id="chatBox"><div id="userDetails"><button onclick="goBack()" id="goBackButton">back</button><img id="userDp" src="chili.jpg"><h2 id="userName">name</h2></div><div id="chatWindow"><div id="sendDiv"><input id="sendMessage" type="text"><button id="send">send</button></div></div></div>';
+    document.getElementById("chat").innerHTML='<div id="chatBox"><div id="userDetails"><button onclick="goBack()" id="goBackButton"><div class="but">back</div></button><img id="userDp" src="chili.jpg"><h2 id="userName">name</h2></div><div id="chatWindow"><div id="sendDiv"><input id="sendMessage" type="text"><button id="send"><div class="but">send</div></button></div></div></div>';
 };
 const goBack = () => {
     document.getElementById("chat").innerHTML='<div id="selection"><a onclick="matchesDisplay()" id="matches">matches</a><a onclick="messagesDisplay()" id="messages">messages</a></div><div id=container></div>'

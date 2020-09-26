@@ -133,6 +133,9 @@ h1{
     justify-content: space-evenly;
     padding: 2% 0%;
     font-size: 50px;
+    
+}
+#buttonContainer i{
     background: -webkit-linear-gradient(#A4161A, #E5383B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
