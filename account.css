@@ -164,6 +164,7 @@ h1{
 
 }
 #goBackButton{
+    border-color: black;
     align-self: center;
     background-color: transparent;
     border-radius: 20px;
@@ -216,4 +217,39 @@ h1{
     color: white;
     font-weight: 400;
     font-family: josefin sans;
+}
+@media (max-width: 6in){
+    #sidebar{
+        z-index: -1;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,1);
+        opacity: 0;
+        
+    }
+    #modeswitch{
+        font-size: 30px;
+        background: -webkit-linear-gradient(#161A1D, #E5383B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #matchContainer{
+        margin-left: 5%;
+    }
+    
+    #cardsContainer{
+        z-index: 1;
+        position: fixed;
+        right: 5%;
+        top: 10%;
+        width: 85%;
+        height: 80%;
+    
+    }
+    #buttonContainer{
+        padding: 2% 0%;
+        font-size: 40px;
+    }
+    
 }

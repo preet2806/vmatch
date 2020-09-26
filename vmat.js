@@ -1,3 +1,22 @@
+window.onload = () => {
+    var nav=window.innerWidth;
+    console.log(nav);
+    if(nav<600)
+    {
+        document.getElementById("selection").innerHTML+='<a onclick="swipemode()">Swipe</a>';
+        document.getElementById("switch").innerHTML+='<a id="modeswitch" onclick="matchmode()">< matches</a>';
+    }
+}
+const swipemode = () => {
+    document.getElementById("sidebar").style.opacity='0';
+    document.getElementById("sidebar").style.zIndex='-1';
+    document.getElementById("cardsContainer").style.zIndex='1';
+};
+const matchmode = () => {
+    document.getElementById("sidebar").style.opacity='1';
+    document.getElementById("sidebar").style.zIndex='1';
+    document.getElementById("cardsContainer").style.zIndex='-1';
+};
 const signupDiv = () => {
     
     document.getElementById("title").style.opacity=0.4;

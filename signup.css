@@ -51,7 +51,7 @@ label{
     -webkit-text-fill-color: transparent;
     padding: 0.5% 0.4%;
     border-radius: 20px;
-    border-color: #c9a7ef;
+    border-color: #ffffff;
     margin-top: 4%;
     margin-left: 35%;
     margin-right: 35%;
@@ -135,7 +135,7 @@ h3{
     -webkit-text-fill-color: transparent;
     padding: 0.5% 0.4%;
     border-radius: 20px;
-    border-color: #c9a7ef;
+    border-color: #ffffff;
     margin-top: 0%;
     margin-left: 35%;
     margin-right: 35%;
@@ -146,4 +146,56 @@ h3{
     font-size: 75px;
     font-weight: 400;
     align-self: center;
+}
+@media (max-width: 6in){
+    .icon{
+        font-size: 40px;
+    }
+    .gender{
+        font-size: 20px;
+    }
+    label{
+        font-size: 20px;
+    }
+    #continueButton{
+        font-size:20px;
+        padding: 0.5% 0%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #signupElement{
+        font-size: 40px;
+        background-color: #7a7887;
+        color: #1c2130;
+        padding: 5% 10%;
+        margin-top: 2%;
+    } 
+    nav{
+        font-size: 35px;
+    }
+    
+    #title{
+        font-size:50px;
+    }
+    #alertContainer{
+        left: 20%;
+        top: 10%;
+        width: 60%;
+        height: 80%;
+    }
+    h3{
+        font-size: 25px;
+        
+    }
+    #agree{
+        font-size:15px;
+        padding: 3% 0.4%;
+    }
+    #formTitle{
+        margin-top: 20%;
+        font-size: 45px;
+    }
+    p{
+        line-height: 15px;
+    }
 }

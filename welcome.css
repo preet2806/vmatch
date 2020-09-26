@@ -88,3 +88,44 @@ button{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media (max-width: 6in){
+    nav{
+        
+        font-size: 30px;
+        
+    }
+    
+    body{
+        background-image: url("https://image.freepik.com/free-photo/beautiful-sexy-fashion-blond-girl-model-with-bright-makeup-curly-hairstyle-retro-style-sitting-old-car_158538-9302.jpg");
+        background-repeat: no-repeat;
+        
+    }
+    #welcomeBody{
+       
+        grid-template-rows: 450px 90px 50px;
+    }
+    #container{
+        width: 250px;
+        height: 200px;   
+    }
+    #signupContainer{
+        border-radius: 30px;
+    }
+    #loginContainer{
+        border-radius: 30px;
+    }
+    .icon{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #titlep{
+        font-size: 20px;
+    }
+    button{
+        border-radius: 10px;
+        padding: 1px 8px;
+        font-size: 20px;
+    }
+}
